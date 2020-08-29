@@ -108,7 +108,7 @@ author:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/heeseongjang/"
     - label: "Website"
-      icon: "fab fa-fw fa-website"
+      icon: "fab fa-fw fa-link"
       url: "https://jheeseong.github.io/"
 # Site Footer
 footer:
