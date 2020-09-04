@@ -3,7 +3,6 @@ title: "Maven vs Gradle"
 date: 2020-09-04 16:21:00 -0400
 categories: Build Management Tool
 ---
-
 ## Maven이란
 
 - 스프링 프로젝트에서의 pom.xml이다.
