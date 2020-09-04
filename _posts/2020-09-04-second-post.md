@@ -3,6 +3,7 @@ title: "Maven vs Gradle"
 date: 2020-09-04 16:21:00 -0400
 categories: Build Management Tool
 ---
+
 ## Maven이란
 
 - 스프링 프로젝트에서의 pom.xml이다.
@@ -38,7 +39,7 @@ Groovy DSL(Domain-Specific Language)로 작성하며, 설정 정보는 변수에
 → Build Cache : 동일한 입력에 대해 다른 Gradle 빌드의 출력물이라도 재사용 가능
 → Gradle Daemon : 빌드 정보를 메모리에 유지하여 프로세스를 장기간 유지
 
-## 빌드 관리 툴인 Gradle이 Maven보다 좋은점
+## Gradle이 Maven보다 좋은점
 
 - Build라는 동적인 요소를 XML로 정의하기에는 어려운 부분이 많다.
 - Maven은 설정 내용이 길어지고 가독성 떨어짐
