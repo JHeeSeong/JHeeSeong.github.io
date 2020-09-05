@@ -35,11 +35,12 @@ categories: Build Management Tool
 Groovy DSL(Domain-Specific Language)로 작성하며, 설정 정보는 변수에 값을 넣는 형태로, 동적인 빌드는 Groovy 스크립트로 Gradle용 플로그인을 호출하거나 직접 코드를 작성한다.
 - Gradle의 경우 별도의 빌드스크립트를 통하여 사용할 어플리케이션 버전, 라이브러리등의 항목을 설정 한다.
 - 빌드 시 Gradle이 Maven보다 빠르다.
-→ Incrementality : 작업의 입력 및 출력을 추척하여 필요한것만 실행
-→ Build Cache : 동일한 입력에 대해 다른 Gradle 빌드의 출력물이라도 재사용 가능
-→ Gradle Daemon : 빌드 정보를 메모리에 유지하여 프로세스를 장기간 유지
 
-## Gradle이 Maven보다 좋은점
+      → Incrementality : 작업의 입력 및 출력을 추척하여 필요한것만 실행
+      → Build Cache : 동일한 입력에 대해 다른 Gradle 빌드의 출력물이라도 재사용 가능
+      → Gradle Daemon : 빌드 정보를 메모리에 유지하여 프로세스를 장기간 유지
+
+## 빌드 관리 툴인 Gradle이 Maven보다 좋은점
 
 - Build라는 동적인 요소를 XML로 정의하기에는 어려운 부분이 많다.
 - Maven은 설정 내용이 길어지고 가독성 떨어짐
