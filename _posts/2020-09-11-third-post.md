@@ -4,8 +4,6 @@ date: 2020-09-11 10:30:00 -0400
 categories: Spring
 ---
 
-# #2. Spring Web Layer
-
 ### Web Layer
 - 컨트롤러(@Controller) 와 JSP/Freemaker 등의 뷰 템플릿 영역
 
