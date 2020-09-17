@@ -104,7 +104,7 @@ public class PostsApiControllerTest {
 }
 ```
 
-![#3%20JPA%20Auditing%E1%84%8B%E1%85%B5%E1%84%85%E1%85%A1%E1%86%AB%20ab171b6422074f3c9804198b3c3bc5d8/Untitled.png](#3%20JPA%20Auditing%E1%84%8B%E1%85%B5%E1%84%85%E1%85%A1%E1%86%AB%20ab171b6422074f3c9804198b3c3bc5d8/Untitled.png)
+| ![JPA Test code]({{"/assets/imgages/#3_img.png"| relative_url}}) |
 
 ---
 참고 : 스프링 부트와 AWS로 혼자 구현하는 웹 서비스
