@@ -4,8 +4,6 @@ date: 2020-09-17 16:05:00 -0400
 categories: JPA Auditing
 ---
 
-# #3. 
-
 ### JPA Auditing을 이용하여 등록.수정 시간을 자동화하는 방법
 
 - Auditing이란 ? 감사/감시 하다라는 의미입니다.
