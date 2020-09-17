@@ -104,7 +104,7 @@ public class PostsApiControllerTest {
 }
 ```
 
-| ![3JPA Auditing Test code]({{"/assets/images/3_img.png"| relative_url}}) |
+![3_img](https://user-images.githubusercontent.com/49134781/93451512-3e68bb00-f912-11ea-9162-08d1c98c0f14.png)
 
 ---
 참고 : 스프링 부트와 AWS로 혼자 구현하는 웹 서비스
