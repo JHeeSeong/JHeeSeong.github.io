@@ -5,7 +5,7 @@ categories: Dirty Checking
 ---
 
 
-# #4. Dirty Checking
+# #Dirty Checking이란?
 
 - JPA 더티 체킹을 이용하면  Update 쿼리 없이 테이블 수정이 가능하다는 것
 
