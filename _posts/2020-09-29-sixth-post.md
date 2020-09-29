@@ -1,11 +1,10 @@
-
 ---
-title: "JUnit이란?"
-date: 2020-09-29 12:07:00 -0400
-categories: JUni
+title: "Dirty Checking이란?"
+date: 2020-09-25 09:26:00 -0400
+categories: Dirty Checking
 ---
 
-JUnit이란?
+
 Java의 단위 테스팅(Unit Testing) 도구이다.
 
 ### 특징
