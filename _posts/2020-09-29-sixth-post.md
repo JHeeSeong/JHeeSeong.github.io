@@ -1,7 +1,7 @@
 ---
-title: "Dirty Checking이란?"
-date: 2020-09-25 09:26:00 -0400
-categories: Dirty Checking
+title: "JUnit 이란?"
+date: 2020-09-29 09:29:00 -0400
+categories: JUnit
 ---
 
 
