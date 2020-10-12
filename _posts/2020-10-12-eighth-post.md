@@ -1,5 +1,5 @@
 ---
-title: "Controller, Repository, Service!"
+title: "Controller, Repository, Service"
 date: 2020-10-12 13:50:00 -0400
 categories: Controller, Repository, Service
 ---
@@ -30,6 +30,6 @@ Service
 - Service ↔ Repository (Entity로 전달)
 - Controller ↔ Service (DTO로 전달)
 - Entity → DTO로 변경하려면 `of()` 
-DTO → Entity로 변경하려면 `toEntity()`
+- DTO → Entity로 변경하려면 `toEntity()`
 
 참고 : [https://velog.io/@sumusb/Spring-Service-Layer에-대한-고찰](https://velog.io/@sumusb/Spring-Service-Layer%EC%97%90-%EB%8C%80%ED%95%9C-%EA%B3%A0%EC%B0%B0)
