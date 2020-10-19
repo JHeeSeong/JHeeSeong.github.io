@@ -1,6 +1,6 @@
 ---
 title: "Dirty Checking이란?"
-date: 2020-09-25 09:26:00 -0400
+date: 2020-09-25 09:26:00 -0500
 categories: Dirty Checking
 ---
 

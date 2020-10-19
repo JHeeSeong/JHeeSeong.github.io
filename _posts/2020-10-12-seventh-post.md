@@ -1,6 +1,6 @@
 ---
 title: "Intellij Spring Initializr 사용"
-date: 2020-10-12 11:45:00 -0400
+date: 2020-10-12 11:45:00 -0700
 categories: Intellij Spring Initializr
 ---
 

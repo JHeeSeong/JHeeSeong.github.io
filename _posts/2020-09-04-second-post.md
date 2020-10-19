@@ -1,6 +1,6 @@
 ---
 title: "Maven vs Gradle"
-date: 2020-09-04 16:21:00 -0400
+date: 2020-09-04 16:21:00 -0200
 categories: Build Management Tool
 ---
 

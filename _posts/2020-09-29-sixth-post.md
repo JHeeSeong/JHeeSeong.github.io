@@ -1,6 +1,6 @@
 ---
 title: "JUnit 이란?"
-date: 2020-09-29 09:29:00 -0400
+date: 2020-09-29 09:29:00 -0600
 categories: JUnit
 ---
 
