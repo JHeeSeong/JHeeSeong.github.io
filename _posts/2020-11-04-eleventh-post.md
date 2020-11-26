@@ -65,5 +65,5 @@ Observable.just("Hello", "RxJava2", "World", "!")
 -  역압(backpressure) 연산자
 > 특정 제어흐름 원칙들을 적용하는 다양한 연산자들
 
-    출처 : 태임쓰의 개발블로그
-    출처 : http://reactivex.io/documentation/ko/observable.html
+    
+> 해당 포스팅은 '태임쓰의 개발블로그', 'reactivex.io' 블로그를 보면서 정리한 내용입니다.

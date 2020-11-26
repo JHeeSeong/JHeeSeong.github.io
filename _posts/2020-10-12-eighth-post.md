@@ -32,4 +32,5 @@ Service
 - Entity → DTO로 변경하려면 `of()` 
 - DTO → Entity로 변경하려면 `toEntity()`
 
-참고 : [https://velog.io/@sumusb/Spring-Service-Layer에-대한-고찰](https://velog.io/@sumusb/Spring-Service-Layer%EC%97%90-%EB%8C%80%ED%95%9C-%EA%B3%A0%EC%B0%B0)
+
+> 해당 포스팅은 'velog.io' 블로그 내용을 보면서 정리한 내용입니다.
