@@ -6,11 +6,9 @@ categories: Altibase 설치
 
 # Altibase 설치 정보
 - Altibase: 6.5.1.7.1
-- Oracle Linux: 10.200.2.130 / 10.200.2.136 / 10.200.2.148 / 172.16.104.12
 - glibc: 2.12~2.20
           glibc-2.12-1.166.el6_7.1이상 권고-이전 버전의 glibc는 시스템 콜(malloc/free) 함수가 
           race condition으로 인해 deadlock이 발생할수 있는 버그가 존재한다.
-- license: 509586B9E3D30EB07577AA9637550C9B598DEC07BD8F710DA82D069192EC1C19
 
 ![Altibase%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8E%E1%85%B5%205b544edafb544b6b926775f28ef79ff7/Untitled.png](Altibase%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8E%E1%85%B5%205b544edafb544b6b926775f28ef79ff7/Untitled.png)
 
@@ -312,7 +310,7 @@ ALTIBASE HDB License
 
 Please enter your ALTIBASE HDB license key.
 
-[]: 509586B9E3D30EB07577AA9637550C9B598DEC07BD8F710DA82D069192EC1C19
+[]: license info.....
 
 ---
 
