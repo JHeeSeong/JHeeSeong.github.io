@@ -717,10 +717,6 @@ DROP USER [USER NAME] CASCADE;
 
 ### Altibase User 확인
 
-```bash
+```
 SELECT * FROM SYSTEM_.SYS_USERS_;
-<<<<<<< HEAD
 ```
-=======
-```
->>>>>>> origin/gh-pages

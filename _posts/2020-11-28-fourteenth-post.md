@@ -11,14 +11,18 @@ INFO
 방화벽 설정
 
 - 방화벽 해제
+```
   [altibase]$ systemctl stop firewalld
-
+```
 - 리부팅 시 방화벽 실행 하지 않게 하기
+```
   [altibase]$ systemctl disable firewalld
-
+```
 - 방화벽 해제되었는지 확인하는 방법
+```
   [root]# firewall-cmd --state
   not running
+```
 
 ## 1. 이중화 생성
 
@@ -206,4 +210,4 @@ minvalue [최소 값]
 maxvalue [최대 값];
 ```
 
-이중화가 중지되어도 이중화로 맺어져 있는 테이블들이 변동이 일어나면 로그에 전부 기록되고 재시작하면 로그에 쌓인 기록을 읽어 싱크를 맞춰주니 운영중에 STOP 해도 된다.
+ > 이중화가 중지되어도 이중화로 맺어져 있는 테이블들이 변동이 일어나면 로그에 전부 기록되고 재시작하면 로그에 쌓인 기록을 읽어 싱크를 맞춰주니 운영중에 STOP 해도 된다.
