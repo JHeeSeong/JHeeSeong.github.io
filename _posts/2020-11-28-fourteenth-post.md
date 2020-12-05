@@ -6,19 +6,18 @@ categories: Altibase 이중화 구성
 INFO
 
 - Active / Standby 이중화 장비
-- Test 장비 172.16.48.167(A) / 10.200.2.142(S)
 - 방화벽 확인 필수(disable로 되어 있어야 합니다.)
 
 방화벽 설정
 
 - 방화벽 해제
-  [altibase@ktp-dbu-ims-1a conf]$ systemctl stop firewalld
+  [altibase]$ systemctl stop firewalld
 
 - 리부팅 시 방화벽 실행 하지 않게 하기
-  [altibase@ktp-dbu-ims-1a conf]$ systemctl disable firewalld
+  [altibase]$ systemctl disable firewalld
 
 - 방화벽 해제되었는지 확인하는 방법
-  [root@ems-pkg167 ~]# firewall-cmd --state
+  [root]# firewall-cmd --state
   not running
 
 ## 1. 이중화 생성
@@ -66,7 +65,7 @@ REPLICATION_SENDER_ENCRYPT_XLOG       = 0
 - 변경한 프로퍼티 적용을 위해 DB 재구동
 
 ```sql
-[altibase@ktp-dbu-ims-1a conf]$ server restart
+[altibase]$ server restart
 ```
 
 ### 이중화 대상 테이블 생성
@@ -90,14 +89,14 @@ CREATE TABLE test1 ( c1 INTEGER PRIMARY KEY, c2 CHAR(10) ) ;
 
 ```sql
 # Active 서버에 대한 예시이다.
-CREATE REPLICATION rep WITH '10.200.2.142', 31300
-FROM ipageon.ALL_SWITCH_550400_DAY to ipageon.ALL_SWITCH_550400_DAY;
+CREATE REPLICATION rep WITH '[replication 대상 서버]', 31300
+FROM TEST_DB to TEST_DB;
 ```
 
 ```sql
 # Standby 서버에 대한 예시이다.
-CREATE REPLICATION rep WITH '172.16.48.165', 31300
-FROM ipageon.ALL_SWITCH_550400_DAY to ipageon.ALL_SWITCH_550400_DAY ;
+CREATE REPLICATION rep WITH '[replication 대상 서버]', 31300
+FROM TEST_DB to TEST_DB ;
 ```
 
 ### 이중화 객체 삭제
