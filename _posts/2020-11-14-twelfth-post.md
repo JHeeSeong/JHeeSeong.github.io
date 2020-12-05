@@ -98,4 +98,4 @@ while (true) {
 ```
 
 
-출처 : [https://jongmin92.github.io/2019/03/03/Java/java-nio/](https://jongmin92.github.io/2019/03/03/Java/java-nio/)
+> 해당 포스팅은 'jongmin92' 블로그를 보면서 정리한 내용입니다.
