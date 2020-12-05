@@ -642,7 +642,7 @@ Alter success.
 
 ```bash
 # altibase server stop
-[altibase@ktp-dbu-ext-1a ~]$ server stop
+[altibase@~]$ server stop
 -----------------------------------------------------------------
      Altibase Client Query utility.
      Release Version 6.5.1.7.1
@@ -657,7 +657,7 @@ TRANSITION TO PHASE : Shutdown Altibase
 shutdown immediate success.
 
 # altibase server start
-[altibase@ktp-dbu-ext-1a ~]$ server start
+[altibase@ ~]$ server start
 -----------------------------------------------------------------
      Altibase Client Query utility.
      Release Version 6.5.1.7.1
