@@ -4,8 +4,6 @@ date: 2020-12-20 19:35:00 -0900
 categories: RPM, YUM
 ---
 
-# [패키지 관리 기법] RPM vs YUM
-
 ## RPM(Red Hat Package Manager)
 
 > Windows의 setup.exe와 비슷한 설치 파일이다. 이를 패키지라 부른다. (.rpm) 
