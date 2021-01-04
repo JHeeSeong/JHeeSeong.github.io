@@ -1,0 +1,47 @@
+---
+title: "Java Netty Socket Option"
+date: 2021-01-04 18:00:00 -0900
+categories: JAVA, Netty, Socket, Option
+---
+
+## Java Netty Socket Option
+
+- **TCP_NODELAY**
+    - Disable Nagle's algorithm.
+    - Valid for (client) Sockets.
+- **SO_LINGER**
+    - Specify a linger-on-close timeout.
+    - Valid for (client) Sockets.
+- **SO_TIMEOUT**
+    - Specify a timeout on blocking socket operations. (Don't block forever!
+    - Valid for all sockets: Socket, ServerSocket, DatagramSocket.
+- **SO_BINDADDR**
+    - Fetch the local address binding of a socket.
+    - Valid for Socket, ServerSocket, DatagramSocket.
+- **SO_REUSEADDR**
+    - Enable reuse address for a socket.
+    - Valid for Socket, ServerSocket, DatagramSocket.
+- **SO_BROADCAST**
+    - Enables a socket to send broadcast messages.
+    - Valid for DatagramSocket.
+- **SO_SNDBUF**
+    - Set a hint the size of the underlying buffers for outgoing network I/O.
+    - Valid for all sockets: Socket, ServerSocket, DatagramSocket.
+- **SO_RCVBUF**
+    - Get the size of the buffer actually used by the platform when receiving in data on this socket.
+    - Valid for all sockets: Socket, ServerSocket, DatagramSocket.
+- **SO_KEEPALIVE**
+    - Turn on socket keepalive.
+    - Valid for Socket.
+- **SO_OOBINLINE**
+    - Enable inline reception of TCP urgent data.
+    - Valid for Socket.
+- **IP_MULTICAST_IF**
+    - Specify the outgoing interface for multicast packets (on multihomed hosts).
+    - Valid for MulticastSockets.
+- **IP_MULTICAST_LOOP**
+    - Enables or disables local loopback of multicast datagrams.
+    - Valid for MulticastSocket.
+- **IP_TOS**
+    - Sets the type-of-service or traffic class field in the IP header for a TCP or UDP socket.
+    - Valid for Socket, DatagramSocket
