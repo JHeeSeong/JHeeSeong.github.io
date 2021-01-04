@@ -4,8 +4,6 @@ date: 2021-01-04 18:00:00 -0900
 categories: JAVA, Netty, Socket, Option
 ---
 
-## Java Netty Socket Option
-
 - **TCP_NODELAY**
     - Disable Nagle's algorithm.
     - Valid for (client) Sockets.
