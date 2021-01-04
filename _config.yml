@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "TYONG"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Jang Hee Seong"
+name                     : "tyong"
 description              : "Java developer."
 url                      :  "https://JHeeSeong.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
