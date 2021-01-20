@@ -39,31 +39,6 @@ Observable.just("Hello", "RxJava2", "World", "!")
     - `[인자 1개] Disposable subscribe(Consumer<? super T> onNext)` : `onNext`를 처리합니다.
     - `[인자 2개] Disposable subscribe (Consumer<? super T> onNext, Consumer<? super java.lang.Throwable> onError)` : `onNext`와 `onError` 이벤트를 처리합니다.
     - `[인자 3개] Disposable subscibe(Consumer<? super T> onNext, Consumer<? super java.lang.Throwable> onError, Action OnComplete)` : `onNext`와 `onError`, `onComplete` 이벤트를 처리합니다.
-    
-
-### Observable 연산자
--  Observable 생성
-> Create, Defer, Empty/Never/Throw, From, Interval, Just, Range, Repeat, Start, 그리고 Timer
--  Observable 항목 변환
-> Buffer, FlatMap, GroupBy, Map, Scan, 그리고 Window
--  Observable 필터
-> Debounce, Distinct, ElementAt, Filter, First, IgnoreElements, Last, Sample, Skip, SkipLast, Take, 그리고 TakeLast
--  Observable 결합
-> And/Then/When, CombineLatest, Join, Merge, StartWith, Switch, 그리고 Zip
--  오류 처리 연산자
-> Catch 그리고 Retry
--  유틸리티 연산자
-> Delay, Do, Materialize/Dematerialize, ObserveOn, Serialize, Subscribe, SubscribeOn, TimeInterval, Timeout, Timestamp, 그리고 Using
--  조건 및 불린(Boolean) 연산자
-> All, Amb, Contains, DefaultIfEmpty, SequenceEqual, SkipUntil, SkipWhile, TakeUntil, 그리고 TakeWhile
--  수학과 조합 연산자
-> Average, Concat, Count, Max, Min, Reduce, 그리고 Sum
--  변환 Observable
-> To
--  연결 가능한 Observable 연산자
-> Connect, Publish, RefCount, 그리고 Replay
--  역압(backpressure) 연산자
-> 특정 제어흐름 원칙들을 적용하는 다양한 연산자들
-
+  
     
 > 해당 포스팅은 '태임쓰의 개발블로그', 'reactivex.io' 블로그를 보면서 정리한 내용입니다.
