@@ -1,3 +1,4 @@
+---
 title: "List의 객체 목록 중복 제거"
 date: 2021-01-15 18:40:00 -0900
 categories: JAVA, List, 목록 중복 제거
