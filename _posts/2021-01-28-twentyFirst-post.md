@@ -4,7 +4,7 @@ date: 2021-01-28 20:10:00 -0900
 categories: Observable 연산자
 ---
 
-### 1.Observable 생성**
+### 1.Observable 생성
 
 > `Create`, `Defer`, `Empty`/`Never`/`Throw`, `From`, `Interval`, `Just`, `Range`, `Repeat`, `Start`, 그리고 `Timer`
 
@@ -19,7 +19,7 @@ categories: Observable 연산자
 - `[Start]` :  함수의 실행 결과를 배출하는 Observable을 생성한다
 - `[Timer]` :  지정된 시간이 지나고 난 후 항목을 하나 배출하는 Observable을 생성한다
 
-### 2.Observable 항목 변환**
+### 2.Observable 항목 변환
 
 > `Buffer`, `FlatMap`, `GroupBy`, `Map`, `Scan`, 그리고 `Window`
  
@@ -30,7 +30,7 @@ categories: Observable 연산자
 - `[Scan]` :  Observable이 배출한 항목에 연속적으로 함수를 적용하고 실행한 후 성공적으로 실행된 함수의 리턴 값을 발행한다
 - `[Window]` :  정기적으로 Observable의 항목들을 더 작은 단위의 Observable 윈도우로 나눈 후에, 한번에 하나씩 항목들을 발행하는 대신 작게 나눠진 윈도우 단위로 항목들을 배출한다
 
-### 3.Observable 필터**
+### 3.Observable 필터
 
 > `Debounce`, `Distinct`, `ElementAt`, `Filter`, `First`, `IgnoreElements`, `Last`, `Sample`, `Skip`, `SkipLast`, `Take`, 그리고 `TakeLast`
 
@@ -47,7 +47,7 @@ categories: Observable 연산자
 - `[Take]` :  Observable이 배츨한 처음 개의 항목들만 배출한다
 - `[TakeLast]` :  Observable이 배출한 마지막 개의 항목들만 배출한다
 
-### 4. O**bservable 결합**
+### 4. Observable 결합
 
 > `And`/`Then`/`When`, `CombineLatest`, `Join`, `Merge`, `StartWith`, `Switch`, 그리고 `Zip`
 
@@ -59,14 +59,14 @@ categories: Observable 연산자
 - `[Switch]` :  Observable들을 배출하는 Observable을 싱글 Observable로 변환하다. 변환된 싱글 Observable은 변환 전 소스 Observable들이 배출한 항목들을 배출한다
 - `[Zip]` :  명시한 함수를 통해 여러 Observable들이 배출한 항목들을 결합하고 함수의 실행 결과를 배출한다
 
-### 5.오류 처리 연산자**
+### 5.오류 처리 연산자
 
 > `Catch` 그리고 `Retry`
 
 - `[Catch]` :  오류를 무시하고 배출되는 항목들을 계속 진행시켜 'onError'로부터 전달된 오류를 복구한다
 - `[Retry]` :  만약 소스 Observable이 'onError' 알림을 보낼 경우, 오류 없이 실행이 완료되기를 기대하며 재구독을 시도한다
 
-### 6.유틸리티 연산자**
+### 6.유틸리티 연산자
 
 > `Delay`, `Do`, `Materialize`/`Dematerialize`, `ObserveOn`, `Serialize`, `Subscribe`, `SubscribeOn`, `TimeInterval`, `Timeout`, `Timestamp`, 그리고 `Using`
 
@@ -82,7 +82,7 @@ categories: Observable 연산자
 - `[Timestamp]` :  Observable이 배출한 항목에 타임 스탬프를 추가한다
 - `[Using]` : 소스 Observable과 동일한 생명주기를 갖는 Observable을 생성하는데, 이 Observable은 생명주기가 완료되면 리소스를 종료하고 반환한다
 
-### 7.조건 및 불린(Boolean) 연산자**
+### 7.조건 및 불린(Boolean) 연산자
 
 > `All`, `Amb`, `Contains`, `DefaultIfEmpty`, `SequenceEqual`, `SkipUntil`, `SkipWhile`, `TakeUntil`, 그리고 `TakeWhile`
 
@@ -96,7 +96,7 @@ categories: Observable 연산자
 - `[TakeUntil]` :  두 번째 Observable이 항목을 발행하기 시작햤거나 두 번째 Observable이 종료되면 그 때부터 발행되는 항목들은 버린다
 - `[TakeWhile]` :  특정 조건이 false를 리턴하기 시작하면 그 이후에 배출되는 항목들을 버린다
 
-### 8.수학과 조합 연산자**
+### 8.수학과 조합 연산자
 
 > `Average`, `Concat`, `Count`, `Max`, `Min`, `Reduce`, 그리고 `Sum`
 
@@ -108,13 +108,13 @@ categories: Observable 연산자
 - `[Reduce]` :  Observable이 배출한 항목에 함수를 순서대로 적용하고 함수를 연산한 후 최종 결과를 발행한다
 - `[Sum]` :  Observable이 배출한 항목의 합계를 배출한다
 
-### 9.변환 Observable**
+### 9.변환 Observable
 
 > `To`
 
 - `To` — Observable을 다른 객체나 자료 구조로 변환한다
 
-### 10.연결 가능한 Observable 연산자**
+### 10.연결 가능한 Observable 연산자
 
 > `Connect`, `Publish`, `RefCount`, 그리고 `Replay`
 
@@ -123,7 +123,7 @@ categories: Observable 연산자
 - `[RefCount]` :  일반 Observable처럼 동작하는 연결 가능한 Observable을 만든다
 - `[Replay]` :  비록 옵저버가 Observable이 항목 배출을 시작한 후에 구독을 했다 하더라도 배출된 모든 항목들을 볼 수 있도록 한다
 
-### 11.역압(backpressure) 연산자**
+### 11.역압(backpressure) 연산자
 
 > 특정 제어흐름 원칙들을 적용하는 다양한 연산자들
 
